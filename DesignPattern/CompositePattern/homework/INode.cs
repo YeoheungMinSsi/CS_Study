@@ -8,4 +8,6 @@ public interface INode
     // 요구사항 1-2
     void AddChild(INode node);
     void RemoveChild(INode node);
+
+    string ToJson();
 }
