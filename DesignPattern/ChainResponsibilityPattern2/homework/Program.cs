@@ -2,7 +2,7 @@
 
 public class Program
 {
-    public static void Main(string[] agrs)
+    public static void Main(string[] args)
     {
         var keyword = new KeywordFilter();
         var link = new LinkFilter();
